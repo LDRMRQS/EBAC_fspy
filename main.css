@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Metal Mania", serif;
+    background: linear-gradient(90deg, #FFE2CA, #FFF1E6);
+    filter: drop-shadow(0 0 0.35rem rgb(0, 0, 0));
+}
+
+h1 {
+    background: linear-gradient(120deg, #160A00, #183D3D);
+    font-size: 50px;
+    margin: 80px 16px 16px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+.container {
+    background: linear-gradient(90deg, #183D3D, #160A00);
+    font-family: "Poppins", sans-serif;
+    padding: 48px;
+    margin: 32px 40% 10px;
+    border-radius: 15px;
+    
+}
+
+form {
+    display:grid;
+}
+
+input, button {
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: rgb(141, 0, 134);
+    text-transform: uppercase;
+    font-family: "Metal Mania", serif;
+    font-weight: bold;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    font-style: italic;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: rgb(175, 32, 132);
+}
+
+.success-message, .error-message, .even-message {
+    font-size: 30px;
+    margin: 32px 40%;
+    padding: 16px;
+    color: #fff;
+    border-radius: 15px;
+    justify-content: center;
+    display: none;
+}
+
+.success-message {
+    background-color: #51ff00;
+}
+
+.error-message {
+    background-color: #ff0000;
+}
+
+.even-message {
+    background-color: #ff00dd;
+}
