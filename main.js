@@ -12,7 +12,7 @@ $(document).ready(function() {
         $('#following').text(json.following);
         $('#link').attr('href', json.html_url);
     })
-    .catch(function(erro)){
+    .catch(function(erro) {
         alert('erro', erro)
     })
 })
